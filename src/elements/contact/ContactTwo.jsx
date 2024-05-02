@@ -1,0 +1,30 @@
+import React, { Component } from "react";
+import ContactForm from "./ContactForm";
+
+class ContactTwo extends Component {
+    render(){
+        return(
+            <div className="contact-form--1">
+                <div className="container">
+                    <div className="row row--35 align-items-start">
+                        <div className="col-lg-6 order-2 order-lg-1">
+                            <div className="section-title text-left mb--50">
+                                <h2 className="title">Contactez nous.</h2>
+                                <p className="description">Contactez-nous dès aujourd'hui pour démarrer votre parcours vers une meilleure santé. Nous sommes là pour répondre à vos questions, planifier vos rendez-vous et vous accompagner à chaque étape.</p>
+                            </div>
+                            <div className="form-wrapper">
+                                <ContactForm />
+                            </div>
+                        </div>
+                        <div className="col-lg-6 order-1 order-lg-2">
+                            <div className="thumbnail mb_md--30 mb_sm--30">
+                                <img  className="" src="/assets/images/about/about-15.jpg" alt="trydo"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+export default ContactTwo;
